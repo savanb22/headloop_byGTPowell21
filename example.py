@@ -22,3 +22,4 @@ output = design(tbx16_AA_F, tbx16_AA_R, tbx16_AA_guide, tbx16_AA_guide_orientati
 #the predicated annealing temperatures are. Only one of those primers should be used, to be determined by testing.
 #In this individual case, the antisense headloop primer was used for HL-PCR.
 print(' Sense headloop primer:', output[0].seq, '\n', output[0].description, '\n', 'Antisense headloop primer:', output[1].seq, '\n', output[1].description)
+print ('success')
