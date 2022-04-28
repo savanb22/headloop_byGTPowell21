@@ -59,6 +59,7 @@ Returns:
      base primer is calculated to be > 3C)
     
 """
+pip install biopython
 from Bio import SeqIO
 from Bio.Seq import Seq
 import Seq #library from biopython GitHub repository [https://github.com/biopython/biopython/blob/master/Bio/Seq.py]
