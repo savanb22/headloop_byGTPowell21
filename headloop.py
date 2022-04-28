@@ -61,8 +61,8 @@ Returns:
 """
 
 
-import Seq #library from biopython GitHub repository [https://github.com/biopython/biopython/tree/master/Bio]
-import SeqRecord #library from from biopython GitHub repository [https://github.com/biopython/biopython/tree/master/Bio]
+import Seq #library from biopython GitHub repository [https://github.com/biopython/biopython/tree/code-of-conduct/Bio]
+import SeqRecord #library from from biopython GitHub repository [https://github.com/biopython/biopython/tree/code-of-conduct/Bio]
 
 
 import melting #library from Erik Clarke's GitHub repository [https://github.com/eclarke/melt]
