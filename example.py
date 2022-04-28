@@ -1,4 +1,4 @@
-from headloop.designer import design
+from headloop import design
 
 ##Kroll et al 2021 eLife 10:e59683, https://doi.org/10.7554/eLife.59683
 ##Example from the paper: tbx16_AA
