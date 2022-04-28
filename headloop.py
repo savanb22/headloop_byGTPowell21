@@ -60,11 +60,9 @@ Returns:
     
 """
 
-#from Bio.Seq import Seq
-#from Bio.SeqRecord import SeqRecord
 
-import Seq #library from biopython GitHub repository [https://github.com/biopython/biopython/tree/master/Bio]
-import SeqRecord #library from from biopython GitHub repository [https://github.com/biopython/biopython/tree/master/Bio]
+import Seq #library from biopython GitHub repository [https://github.com/biopython/biopython]
+import SeqRecord #library from from biopython GitHub repository [https://github.com/biopython/biopython]
 
 
 import melting #library from Erik Clarke's GitHub repository [https://github.com/eclarke/melt]
