@@ -67,7 +67,8 @@ from Bio.SeqRecord import SeqRecord
 
 import melting #library from Erik Clarke's GitHub repository [https://github.com/eclarke/melt]
 
-def design(sense_oligo, antisense_oligo, guide_context, orientation):
+def design('CTGGTCCAGTGCGTTATTGG', 'AGCCAAATGCTTCTTGCTCTTTT', 'CTACAGGACGTACCTGCACCCGGATTCACCAGCGCCCG', 'antisense'):
+#def design(sense_oligo, antisense_oligo, guide_context, orientation):
 
     #identify strand for Tm comparison and tagging   
     orient_error = 'Orientation not correctly specified.\n'
