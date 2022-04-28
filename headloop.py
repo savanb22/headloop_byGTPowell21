@@ -59,9 +59,9 @@ Returns:
      base primer is calculated to be > 3C)
     
 """
-pip install biopython
-from Bio import SeqIO
-from Bio.Seq import Seq
+#git+https://github.com/biopython/biopython#egg=SomePackage
+git+https://github.com/biopython/biopython/blob/76796c970a68fa09da94dc95827b217a872004e2/Bio/Seq.py
+    
 import Seq #library from biopython GitHub repository [https://github.com/biopython/biopython/blob/master/Bio/Seq.py]
 import SeqRecord #library from from biopython GitHub repository [https://github.com/biopython/biopython/blob/master/Bio/SeqRecord.py]
 import melting #library from Erik Clarke's GitHub repository [https://github.com/eclarke/melt]
