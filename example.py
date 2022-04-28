@@ -4,13 +4,13 @@ from headloop import design
 ##Example from the paper: tbx16_AA
 
 #Forward primer
-tbx16_AA_F = 'CTGGTCCAGTGCGTTATTGG'
+tbx16_AA_F = 'AGAGGGGGTGGGGCTTATAG'
 
 #Reverse primer
-tbx16_AA_R = 'AGCCAAATGCTTCTTGCTCTTTT'
+tbx16_AA_R = 'CAGGGAAAGCCGTAGGTCTC'
 
 #Guide sequence and PAM, plus 15 bp downstream sequence
-tbx16_AA_guide = 'CTACAGGACGTACCTGCACCCGGATTCACCAGCGCCCG'
+tbx16_AA_guide = 'GGATATCCCAGCCGACCTGCGGCTCTGCTACAACGTGG'
 
 #Orientation of guide with respect to forward primer: same strand = sense, opposite strand = 'antisense'
 tbx16_AA_guide_orientation = 'antisense'
