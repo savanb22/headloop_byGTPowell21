@@ -61,10 +61,8 @@ Returns:
 """
 
 
-import Seq #library from biopython GitHub repository [https://github.com/savanb22/biopython/tree/master/Bio]
-import SeqRecord #library from from biopython GitHub repository [https://github.com/savanb22/biopython/tree/master/Bio]
-
-
+import Seq #library from biopython GitHub repository [https://github.com/biopython/biopython/blob/master/Bio/Seq.py]
+import SeqRecord #library from from biopython GitHub repository [https://github.com/biopython/biopython/blob/master/Bio/SeqRecord.py]
 import melting #library from Erik Clarke's GitHub repository [https://github.com/eclarke/melt]
 
 def design(sense_oligo, antisense_oligo, guide_context, orientation):
