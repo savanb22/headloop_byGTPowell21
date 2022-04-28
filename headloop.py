@@ -59,6 +59,7 @@ Returns:
      base primer is calculated to be > 3C)
     
 """
+pip install biopython
 
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
